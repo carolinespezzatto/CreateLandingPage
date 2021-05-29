@@ -1,0 +1,118 @@
+.container {
+   display: flex; 
+   align-items: center;
+}
+
+body header div figure img{
+    float: right;
+}
+
+
+body {
+    font-family: Poppins;
+    font-weight: 600;
+    color: hsl(167, 82%, 9%);
+    font-size: 18px;
+    height: 1440px;
+    width: 1440px;
+}
+
+header h1, h2{
+    font-family: Poppins;
+    color: hsl(167, 82%, 9%);
+}
+
+header p{
+    font-family: Poppins;
+    color: hsl(167, 82%, 9%);
+    font-size: 18px;
+}
+
+header{
+    background-image: url(file:///C:/Users/carol/Documents/MeusProjetos/DesafioPage/images/bg-hero-desktop.svg );
+    font-weight: bold;
+    padding: 180px 5%;
+    background-color:rgb(239, 251, 255); 
+    margin-bottom: 150px;  
+}
+
+header h1{
+    line-height: 45px ;  
+}
+header p{
+    line-height: 25px ;
+}
+
+
+.button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 18px 20px;
+    width: 250px;
+    color: #fff;
+    background: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border: none;  
+}
+.button:hover{
+    background: hsl(322, 77%, 72%);
+}
+.button1{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 18px 20px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    background: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border: none;  
+    box-shadow: 1px 1px 7px rgb(199, 198, 198);
+}
+.button1:hover{
+    color: rgb(167, 167, 167);
+    
+}
+
+footer div ul li{
+    list-style: none;
+
+}
+
+section{
+    box-shadow: 1px 1px 7px rgb(199, 198, 198);
+    width: 1200px;   
+    margin-left: 70px;
+    margin-top: 25px;  
+    color: rgb(128, 128, 128);
+}    
+
+footer{
+    background:hsl(167, 82%, 9%); 
+    font-family: Poppins;
+    color: #fff;
+}   
+.copy{
+    font-family: Poppins;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    
+}
+.informations {
+    font-family: Poppins;
+    font-size: 10px;
+}   
+main{
+    box-shadow: 1px 1px 7px rgb(199, 198, 198);
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}    
