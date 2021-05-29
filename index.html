@@ -1,97 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <header id="topo">
-    <h1>Build The Community</h1>
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
-    
-    <button type="button"> Get started For Free</button>
-    <button type="button"> Try It Free</button>
-    
-        <figure>
-           <img src="images/illustration-mockups.svg" alt="Mockup Image"> 
-        </figure>
+
+  <header id="topo"> 
+    <div class="container"> 
+      <div>
+        <img src="images/logo.svg" alt="Logo">
+        <h1> Build The Community <br> Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have <br> a voice, but so does your audience. Create connections with <br> your users as you engage in genuine discussion. </p>
+        <button class="button"> Get started For Free</button>
+      </div>      
+        <div>
+          <button class="button1"> Try It Free</button> 
+        </div> 
+        <div>
+          <img src="images/illustration-mockups.svg" width="400"  alt="Mockup Image"> 
+        </div>
+      </div> 
+    </div>      
   </header>
 
-  <section id="section1">
-      <h2>Grow Together</h2>
-      <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversation you miss out on with a feedback form.</p>
+
+  <section id="section">
+    <div class="container"> 
+      <div>
+        <h2>Grow Together</h2>
+        <p>Generate meaningful discussions with your audience and <br> build a strong, loyal community. Think of the insightful <br> conversation you miss out on with a feedback form.</p>
+      </div>
+      <div>
         <figure>
-          <img src="images/illustration-grow-together.svg" alt="Grow Together">
+          <img src="images/illustration-grow-together.svg" width="400" alt="Grow Together">
         </figure>
+      </div>  
+    </div>   
   </section>
 
   <section id="section2">
-    <h2>Flowing Conversations</h2>
-    <p>You wouldn't paginate a conversation in real life, so why do at online? Our threads have just-in-time loading for a more natural flow</p>
+    <div class="container">
+      <div>
         <figure>
-            <img src="images/illustration-flowing-conversation.svg" alt="Flowing conversation">
+          <img src="images/illustration-flowing-conversation.svg" width="400" alt="Flowing conversation">
         </figure>
+      </div>
+    <div>
+      <h2>Flowing Conversations</h2>
+      <p>You wouldn't paginate a conversation in real life, so why do <br> at online? Our threads have just-in-time loading for a more <br> natural flow</p>
+    </div>
   </section>
 
   <section id="section3">
-    <h2>Your Users</h2>
-    <p>It take no time at all to integrate Huddle with tour app's authentication solution. This means, odne signed in to your app, your users can start chatting immediately.</p>
+    <div class="container">
+      <div>
+        <h2>Your Users</h2>
+        <p>It take no time at all to integrate Huddle with tour app's <br>authentication solution. This means, odne signed in to <br> your app, your users can start chatting immediately.</p>
+      </div>
+      <div>  
         <figure>
-            <img src="images/illustration-your-users.svg" alt="Your Users">
+            <img src="images/illustration-your-users.svg" width="400" alt="Your Users">
         </figure>
+      </div>
   </section>
 
-  <section id="section4">
-    <h2>Ready To Build Your Community</h2>
-    <button type="button"> Get started For Free</button>
-
-  </section>
+  <main id="section4">
+    <div class="section4">
+      <h2>Ready To Build Your Community</h2>
+      <button class="button"> Get started For Free</button>
+    </div>
+  </main>
 
   <footer>
-    <div class="footer-box"> 
-        <div class="Informations"> 
-            <img src="images/logo.svg" alt="Huddle Logo">
-            <img src="images/icon-location.svg" alt="Icon Location">
-            <img src="images/icon-phone.svg" alt="Icon Phone">
-            <img src="images/icon-email.svg" alt="Icon E-mail">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-            <p>+1-543-123-4567</p>
-            <p>example@hiddle.com</p>            
-        </div>
-    </div>    
-    <div class="footer-box">
-        <div class="Informations">
-            <ul class="footer-list-informations1">
-                <li> <a href="#"> About Us</a> </li>
-                <li> <a href="#"> What We Do</a> </li>
-                <li> <a href="#"> FAQ</a> </li>
+    <div class="container">
+        <nav>
+            <ul>  
+              <li><img src="images/icon-location.svg" alt="Icon Location">
+              <li><img src="images/icon-phone.svg" alt="Icon Phone">
+              <li><img src="images/icon-email.svg" alt="Icon E-mail">
             </ul>
-        </div>
-    </div>
-    <div class= "footer-box">
-        <div class="Informations">
-            <ul class="footer-list-informations2">
-                <li> <a href="#"> Carrer</a> </li>
-                <li> <a href="#"> Blog</a> </li>
-                <li> <a href="#"> Contact Us</a> </li>
-            </ul>            
-        </div>            
-    </div>
-    <div class="s-m">
-        <figure>
-            <img src="https://w7.pngwing.com/pngs/94/962/png-transparent-social-media-computer-icons-facebook-inc-icon-design-social-media.png" alt="Icon Facebook">
-            <img src="https://www.pinclipart.com/picdir/middle/90-906696_twitter-logo-black-png-number-7-in-circle.png" alt="Icon Twitter">
-            <img src="https://w7.pngwing.com/pngs/322/394/png-transparent-logo-computer-icons-instagram-logo-miscellaneous-smile-screenshot-thumbnail.png" alt="Icon Instagram">
-        </figure>
-    </div>
-
+        </nav>
+      <div>
+       <nav>
+          <div class="informations">
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua</p>
+                <p>+1-543-123-4567</p>
+                <p>example@hiddle.com</p>  
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div> 
+      <div>
+      <nav>
+         <div class="informations">
+           <ul>
+            <li> <a href="#"> Carrer</a> </li>
+            <li> <a href="#"> Blog</a> </li>
+            <li> <a href="#"> Contact Us</a> </li>
+           </ul>
+         </div>
+       </nav>
+     </div>
+     <div>
+      <nav>
+         <div class="informations">
+           <ul>
+            <li> <a href="#"> About Us</a> </li>
+            <li> <a href="#"> What We Do</a> </li>
+            <li> <a href="#"> FAQ</a> </li>
+           </ul>
+         </div>
+       </nav>
+     </div>    
+     <div class="container">
+      <div>
+       <nav>
+        <img src="https://w7.pngwing.com/pngs/94/962/png-transparent-social-media-computer-icons-facebook-inc-icon-design-social-media.png" width="50"  alt="Icon Facebook">
+        <img src="https://www.pinclipart.com/picdir/middle/90-906696_twitter-logo-black-png-number-7-in-circle.png" width="30" alt="Icon Twitter">
+        <img src="https://w7.pngwing.com/pngs/322/394/png-transparent-logo-computer-icons-instagram-logo-miscellaneous-smile-screenshot-thumbnail.png" width="30" alt="Icon Instagram">
+       </nav>
+      </div>
+      <div class="copy">
+       &copy; Copyright 2018 Huddle. All rights reserved.
+      </div>
   </footer>
 
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-  Coded by <a href="https://www.linkedin.com/in/caroline-spezzatto-173841145/">Caroline Spezzatto</a>.
-  &copy; Copyright 2018 Huddle. All rights reserved.
 </body>
 </html>
