@@ -42,6 +42,24 @@ header h1{
 header p{
     line-height: 25px ;
 }
+.text-header{
+    position: relative;
+    margin-top: 100px;
+}
+
+
+.img-mockup{
+    position: relative;
+    margin-top: 70px;
+    left: 130px;
+    display: flex;
+}
+.img-logo{
+    display: flex;
+    position:  relative;
+    margin-top: -100px;
+    right: 5px; 
+}
 
 
 .button{
@@ -60,6 +78,7 @@ header p{
 .button:hover{
     background: hsl(322, 77%, 72%);
 }
+
 .button1{
     font-size: 14px;
     font-weight: 600;
@@ -68,20 +87,23 @@ header p{
     color: rgb(0, 0, 0);
     background: hsl(0, 0%, 100%);
     border-radius: 30px;
-    text-align: center;
+    text-align: center ;
     user-select: none;
     cursor: pointer;
     border: none;  
     box-shadow: 1px 1px 7px rgb(199, 198, 198);
+    position: relative ;
+    margin-top: -50px;
+    left: 1100px;
+    display: flex;  
+    justify-content: center;
 }
 .button1:hover{
-    color: rgb(167, 167, 167);
-    
+    color: rgb(167, 167, 167);   
 }
 
 footer div ul li{
     list-style: none;
-
 }
 
 section{
@@ -91,23 +113,36 @@ section{
     margin-top: 25px;  
     color: rgb(128, 128, 128);
 }    
-
-footer{
-    background:hsl(167, 82%, 9%); 
-    font-family: Poppins;
-    color: #fff;
-}   
-.copy{
-    font-family: Poppins;
-    color: #fff;
-    font-size: 12px;
-    text-align: right;
-    
+.text-grow{
+    position: relative;
+    left: 100px;
 }
-.informations {
-    font-family: Poppins;
-    font-size: 10px;
-}   
+.img-grow{
+    position: relative;
+    margin-top: 25px;
+    right: -220px;
+}
+
+.text-users{
+    position: relative;
+    left: 100px;
+}
+
+.img-users{
+    position: relative;
+    margin-top: 15px;
+    right: -220px;  
+}
+.text-conversations{
+    position: relative;
+    left: 100px;
+
+}
+.img-conversations{
+    position: relative;
+    left: 50px;
+
+}
 main{
     box-shadow: 1px 1px 7px rgb(199, 198, 198);
     width: 800px;
@@ -115,4 +150,96 @@ main{
     margin-top: 25px;
     text-align: center;
     font-weight: bold;
+    
 }    
+
+
+
+footer{
+    background:hsl(167, 82%, 9%); 
+    font-family: Poppins;
+    color: #fff;
+    height: 450px;
+
+}   
+.copy{
+    font-family: Poppins;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    position: relative;
+    margin-top: 380px;
+    left: 450px;
+    
+}
+.informations {
+    font-family: Poppins;
+    font-size: 10px;
+}   
+
+.icon-location{
+    position: relative;
+    margin-top: 210px;
+    left: 70px;
+}
+.icon-phone{
+    position: relative;
+    margin-top: 50px;
+    left: 70px;
+}
+.icon-email{
+    position: relative;
+    margin-top: 20px;
+    left: 70px;;
+}
+
+.text-location{
+    position: relative;
+    margin-top: 190px;
+    left: 50px;
+}
+.text-phone{
+    position: relative;
+    margin-top: 35px;
+    left: 50px;
+
+}
+.text-email{
+    position: relative;
+    margin-top: 35px;
+    left: 50px;
+
+}
+
+.midias{
+    position: relative;
+    margin-top: 70px;
+    left: 540px;
+}
+
+
+.informations1{
+    font-family: Poppins;
+    font-size: 10px;
+    line-height: 30px ;
+    margin-top: 120px;
+    left:  500px;  
+    position: relative;
+    left: 200px;  
+}
+
+.informations2{
+    font-family: Poppins;
+    font-size: 10px;
+    line-height: 30px ;
+    margin-top: 120px;
+    position: relative;
+    left: 400px;       
+}
+
+.logo{
+    position: absolute;
+    margin-top: 130px;
+    left: 120px;
+
+}
